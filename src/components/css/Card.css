@@ -1,0 +1,49 @@
+.card-outer {
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(315deg, rgba(255, 153, 0, 1) 0%, rgba(224, 24, 25, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: all 500ms ease-out;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 380px;
+    height: 480px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.card img {
+    display: block;
+    height: 300px;
+    max-width: 380px;
+    margin: auto;
+    filter: brightness(200%);
+}
+
+.was, .now {
+    height: 70px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.now span {
+    background:  linear-gradient(45deg, rgba(255, 153, 0, 1) 0%, rgba(224, 24, 25, 1) 100%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: black;
+}
+
+.desc {
+    text-align: center;
+    font-size: 2.5em;
+}
+

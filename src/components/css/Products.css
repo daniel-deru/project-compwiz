@@ -1,0 +1,7 @@
+#products {
+    color: white;
+    margin-left: 30vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+

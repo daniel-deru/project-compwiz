@@ -1,0 +1,33 @@
+#home {
+    display: inline-block;
+    margin-left: 30vw;
+    text-align: center;
+    width: 70vw;
+   
+}
+
+#home h1 {
+    font-size: 7em;
+    width: 65vw;
+    color: white;
+    /* background: linear-gradient(45deg, rgba(0, 0, 255, 1) 0%, rgb(255, 0, 0) 50%, rgb(0, 255, 0) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    filter: brightness(200%);
+
+}
+
+#home h1 span {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#home img {
+    position: absolute;
+    height: 500px;
+    top: 40px;
+    left: 35vw;
+    z-index: -1;
+    filter: saturate(200%) brightness(40%);
+  
+}

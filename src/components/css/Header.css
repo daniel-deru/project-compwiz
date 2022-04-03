@@ -1,0 +1,85 @@
+#sidebar {
+    width: fit-content;
+    height: 95vh;
+    overflow: hidden;
+    color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 20px;
+    user-select: none;
+    position: fixed;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    color: black;
+}
+
+
+
+#sidebar h1 {
+    color: rgba(255, 255, 255, 1);
+    color: black;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+    margin: 0;
+    margin-top: 20px;
+    font-size: 5em;
+    height: 50px;
+    line-height: 50px;
+}
+
+#sidebar h1:active{
+    transform: scale(0.95);
+}
+
+#sidebar ul {
+    display: inline;
+    width: 20vw;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#sidebar li {
+    background-clip: padding-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    margin: 15px auto;
+    width: 100px;
+    text-align: center;
+}
+
+.active li {
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+#sidebar li:active {
+    transform: scale(0.95);
+}
+
+#contact {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#contact > div {
+    margin: 5px;
+}
+
+.social {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
